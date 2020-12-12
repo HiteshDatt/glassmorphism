@@ -71,6 +71,7 @@ h1 .mid::before{
     animation-iteration-count: infinite;
     animation-timing-function: ease;
     animation-delay: 2s;
+    overflow: hidden;
 }
 @keyframes rotate{
     0%{
