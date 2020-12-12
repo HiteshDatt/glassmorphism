@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Glassm<span class="mid">o</span><span>rphism</span></h1>
+        <div class="card"></div>
+    </div>
+
+
+    <script>
+        const timeUpdate = setInterval(timer,1000)
+        function timer(){
+            const today = new Date();
+            document.querySelector(".card").innerHTML= today.toLocaleTimeString();
+        }
+    </script>
+
+</body>
+</html>
